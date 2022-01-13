@@ -16,4 +16,7 @@ yarn install
 yarn rw prisma migrate dev
 yarn rw prisma db seed
 yarn rw dev
+
+# in another terminal
+yarn rw storybook
 ```
