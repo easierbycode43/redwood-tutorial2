@@ -1,7 +1,7 @@
 import BlogLayout from './BlogLayout'
 
 export const loggedIn = () => {
-  mockCurrentUser({ email: 'rob@redwoodjs.com' })
+  mockCurrentUser({ email: 'daniel@community43.org' })
 
   return <BlogLayout />
 }
