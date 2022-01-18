@@ -1,5 +1,5 @@
 // Define your own mock data here:
-export const standard = (/* vars, { ctx, req } */) => ({
+export const standard = () => ({
   comments: [
     {
       id: 1,
