@@ -3,6 +3,7 @@ import { Link, routes } from '@redwoodjs/router'
 const truncate = (text, length) => {
   return text.substring(0, length) + '...'
 }
+window.truncate = truncate
 
 const BlogPost = ({ post, summary = false }) => {
   return (
